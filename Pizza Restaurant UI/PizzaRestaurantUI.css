@@ -287,7 +287,10 @@ grid-template-areas:
         align-items: center;
     }
     .findInside{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
